@@ -1,0 +1,49 @@
+body {
+    Background-color: rgb(158, 207, 158);
+}
+  h1 {
+    Background-color: rgb(238, 173, 183);
+    text-decoration: underline;
+    text-align: center;
+    color: antiquewhite;
+    }
+    p {
+    color: rgb(255, 255, 218);
+    text-decoration:dotted;
+    font-weight: bold;
+    }
+        ul {
+         color:rgb(64, 147, 44);
+        }
+  .special {
+    color:rgb(0, 93, 0);
+    font-weight: bold;
+  }
+  .special3 {
+    color:rgb(0, 47, 0);
+  }
+a:link {
+    color:rgb(237, 125, 143);
+    }
+a:visited {
+    color:rgb(255, 255, 255);
+    }
+a:hover {
+    color:rgb(255, 180, 193);
+    }
+    p1 {
+        color: rgb(255, 255, 218);
+        font-size: 175%;
+        font-family: cursive;
+    }
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.row:after {
+    content:"";
+    display: table;
+    clear: both;
+}
